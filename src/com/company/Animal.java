@@ -1,17 +1,19 @@
 package com.company;
 
-public class Animal {
-    //public void func4(){
-      //  System.out.println("666");
-    //
-//}
-    @Override
-    public void
+public abstract  class Animal implements LiveAble{
 
+
+    public abstract  void eat();
+
+    @Override
+    public void func() {
+
+    }
 
 
     @Override
     public void show(){
-        //
+
     }
+//无法重写静态方法
 }

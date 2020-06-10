@@ -6,7 +6,7 @@ public interface Pet {
     public void show();
     //多实现默认方法重名
     public default void method(){
-        System.out.println("pet的method");
+        System.out.println("pet");
     }
 
 }
